@@ -26,7 +26,7 @@ class Asteroid {
 
   render() {
     push();
-    stroke(255);
+    stroke(101,253,6);
     noFill();
     translate(this.pos.x, this.pos.y);
     //ellipse(0, 0, this.r * 2);
