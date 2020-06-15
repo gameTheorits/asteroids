@@ -10,7 +10,7 @@ class Laser {
 
  render() {
     push();
-    stroke(255);
+    stroke(101,253,6);
     strokeWeight(4);
     point(this.pos.x, this.pos.y);
     pop();
